@@ -240,6 +240,10 @@ kbd {
 .card.st-open .cm { color: var(--open); }
 .card.st-proven .cm { color: var(--ink); }
 
+/* ---- credit footer ---- */
+.credit { padding: 20px clamp(16px, 4vw, 40px) 32px; border-top: 1px solid var(--rule); font-size: 15px; color: var(--ink-2); }
+.credit p { margin: 0 0 6px; max-width: 80ch; }
+
 /* ---- small screens ---- */
 @media (max-width: 860px) {
   .detail { grid-template-columns: 1fr; }

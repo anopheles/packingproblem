@@ -88,6 +88,10 @@ app.innerHTML = `
   </nav>
 </header>
 <main id="main"></main>
+<footer class="credit">
+  <p>Every packing here comes from <a href="${data.source}" target="_blank" rel="noopener">David Ellsworth's <i>Squares in Squares</i> catalog</a>, which grew out of Erich Friedman's original compilation. Credit for each packing belongs to the people named on its page. This site redraws the catalog's diagrams; for the authoritative record, go there.</p>
+  <p>Data fetched ${new Date(data.fetched).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}. <a href="https://github.com/anopheles/packingproblem" target="_blank" rel="noopener">Source code</a>.</p>
+</footer>
 `;
 
 // ---------- theme ----------
